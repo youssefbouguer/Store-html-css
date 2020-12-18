@@ -1,0 +1,582 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+     min-height: 100vh; 
+}
+
+/* -----------------NAV0----------------- */
+
+.container0{
+
+    width: 100%;
+  
+  
+background-color: rgb(51, 43, 43);
+text-align: center;
+}
+
+.divv{
+    float: left;
+    margin-left: 350px;
+}
+.container0 h1{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    
+}
+.container0 p{
+    
+    font-size: 17px;
+    color: white;
+}
+
+
+/* ------------------------NAV BAR------------------------ */
+.container{
+
+    width: 95%;
+}
+
+.navbar{
+    height: 70px;
+}
+.navimg{
+    text-align: center;
+}
+.navimg img{
+    width: 120px;
+    float: left;
+}
+
+.navul ul li{
+text-decoration: none;
+list-style: none;
+display: inline;
+margin-right: 20px;
+}
+.navul li a{
+    color: rgb(10, 9, 9);
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 90px;
+    
+}
+.ahome a:hover{
+
+opacity: 0.5;
+color: red;
+
+}
+
+.navul  i{
+    display: inline;
+    
+    font-size: 30px;
+    margin-left: 5px;
+    color: rgb(37, 35, 35);
+    
+}
+.navul button{
+
+    border: none;
+    background-color: rgb(247, 247, 247);
+
+}
+
+
+/* ------------------------/NAV BAR------------------------ */
+.colorjoyeux{
+
+    width: 95%;
+    margin: auto;
+    background-color: rgb(253, 247, 247);
+    height: 940px;
+
+}
+
+.containerhome{
+    width: 89%;
+    margin: auto;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 850px;
+    background-image: url(bkhome.jpg);
+    background-size: cover;
+    margin: auto;
+}
+
+.homeimg{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+    position: absolute; 
+    top: 5%;
+    left: 0%;
+}
+
+.homepromos{
+    text-decoration: none;
+    justify-items: center;
+}
+.homepromos button{
+    width: 400px;
+    height: 50px;
+    border: none;
+
+    text-decoration: none;
+     color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 65%;
+    left: 11%;
+    
+    background-color: transparent;
+text-align: center;
+transition-duration: 0.4s;
+}
+
+.homepromos button:hover{
+    opacity: 0.5;
+}
+
+/* ---------------------//////// homee------------ */
+.colordiv{
+    width: 95%;
+    margin: auto;
+    background-color: rgb(253, 247, 247);
+
+
+
+}
+
+.tittle{
+
+    font-size: 40px;
+    font-weight: bold;
+text-transform: uppercase;  
+  color: rgb(15, 14, 13);
+    text-align: center;
+}
+
+.container1{
+
+    width: 86%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+   
+}
+
+ .img-femme{
+    
+    margin-top: 10px;
+    float: left;
+    width: 43%;
+
+
+}
+.img-homme{
+    margin-top: 10px;
+
+    float: right;
+    width: 43%;
+}
+
+
+.btn-group{
+
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 10px;
+    border-radius: 18px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-group button{
+    font-size: 20px;
+}
+
+
+.btn-group:hover{
+
+    opacity: 0.6;
+}
+/* ----------------------------------////////////////SLIDE------------------- */
+
+/* --------------------------------------FEATURED PRODUCT------------------- */
+
+
+
+.featured{
+
+    width: 95%;
+    background-color: rgb(253, 247, 247);
+    margin: auto;
+}
+.featuredh1{
+
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    position: relative;
+
+}
+
+.featuredh1::after{
+
+     content: '';
+     background-color: red;
+     width: 80px;
+     height: 5px;
+     border-radius: 5px;
+     position: absolute;
+     bottom: -30%;
+     left: 50%;
+transform: translateX(-50%);}
+
+.small-container{
+
+   margin: auto;
+   margin-left: 25px;
+   margin-right: 25px; 
+   display: inline-block;
+   
+   
+}
+.col-4{
+
+   display: inline;
+margin-left: 0px;
+text-align: center;
+ 
+margin-top: 17px;
+margin-bottom: 17px;
+cursor: pointer;
+
+}
+
+.col-4 img{
+
+    margin-top: 25px;
+}
+.col-4 img:hover{
+
+transform: translateY(8px);
+
+
+}
+
+.acheter{
+          margin-left: 105px;
+          border: none;
+          width: 100px;
+          height: 40px;
+          background-color: rgb(167, 241, 157);
+          color: black;
+}
+
+.acheter:hover{
+    opacity: 0.6;
+   
+}
+
+.small-container h1{
+    font-size: 30px;
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.small-container p{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 7px;
+}
+
+.small-container i{
+margin-left: 30px;}
+.fa {
+text-align: center;
+margin-left: 3px;
+color: rgb(230, 88, 6);
+padding-left: 6px;
+
+margin-bottom: 30px;
+margin: 9px auto 25px;
+
+}
+
+
+/* --------------------//////.featured--------------- */
+
+/* ---------------------------FOOTER--------------------- */
+
+.footer{
+    background-color: rgb(238, 235, 235);
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    
+
+}
+
+.containerfooter{display: inline;
+    width: 89%;
+    margin: auto;
+    height: 200px;
+}
+.partie{
+margin-top: 50px;
+    display: inline-block;
+    margin-left: 200px;
+    margin-bottom: 40px;
+}
+.partie h3{
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+ }
+
+.footer img{
+    width: 90px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.footer  p{
+    text-align: center;
+    color: red;
+    cursor: pointer;
+
+}
+
+.partie a{
+    text-decoration: none;
+    color: rgb(10, 8, 8);
+    font-size: 20px;
+}
+
+.form label{
+
+    margin-left: 90px;
+}
+.form input {
+
+    width: 200px;
+    height: 40px;
+    border-radius: 9px;
+    background-color: rgb(177, 174, 174);
+    color: black;
+    cursor: pointer;
+}
+
+.inputform ::placeholder{
+    text-align: center;
+    color: black;
+}
+
+.form button{
+
+    width: 100px;
+    height: 40px;
+    border-radius: 9px;
+    background-color: orange;
+    cursor: pointer;
+    margin-left: 3px;
+    transition: 0.3s;
+}
+.form button:hover{
+    opacity: 0.5;
+}
+
+
+
+
+.partie i{
+
+    font-size: 35px;
+    color: orange;
+    cursor: pointer;
+transition: 0.4s;
+}
+.partie i:hover{
+    opacity: 0.5;
+   
+}
+
+/* -----------------------///////footer--------------------- */
+
+.copy{
+    text-align: center;
+color: rgb(182, 169, 169);
+font-size: large;
+text-transform: uppercase;
+font-weight: bold;
+background-color: rgb(238, 235, 235);
+margin-bottom: 20px;
+
+}
+
+/* ------------------------------------CONTACT-------------------- */
+
+.contact0{
+
+    background-color: black;
+    width: 90%;
+    height: 600px;
+    margin: auto;
+}
+.contact1{
+ background-color: rgb(196, 192, 192);
+ width: 48%;
+ float: left;
+ height: 600px;
+ /* display: flex;
+ justify-content: center;
+ align-items: center; */
+
+
+}
+
+.contact2{
+
+    background-color: rgb(252, 234, 232);
+    width:52%;
+    height: 600px;
+float: right;    
+
+}
+
+.contact1 p{
+
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+.contact1 form{
+
+    margin-left: 230px;
+    width: 150px;
+}
+.contact1 form label{
+    text-align: center;
+    margin-left: auto;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.contact1 form input{
+
+    width: 200px;
+    border-radius: 10px;
+}
+.contact1 form button{
+    margin-top: 9px;
+    width: 150px;
+    border: none;
+border-radius: 8px;
+margin-left: 25px;
+transition: 0.3s;
+}
+.contact1 form button:hover{
+
+    opacity: 0.5;
+}
+.contact1 .fa{
+    
+    cursor: pointer;
+  
+    font-size: 50px;
+
+    margin: auto;
+    transition: 0.4s;
+    margin-left: 15px;
+}
+.contact1 .fa:hover{
+
+    color: orange;
+}
+
+.fa-facebook-f{
+ color: blue;
+}
+.fa-twitter{
+    color: rgb(90, 90, 194);
+}
+
+.social{
+
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+
+
+.contact2 img {
+
+    height: 600px;
+    width: 100%;
+}
+
+.maps i{
+
+    margin-top: 30px;
+    font-size: 200px;
+    color: red;
+    display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+transition: 0.3s;
+
+}
+
+.maps i:hover{
+
+    /* opacity: 0.6; */
+    color: orange;
+}
+
+
+.maps iframe{
+    margin-top: 20px;
+    margin-left: 370px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------@Bouguerba Youssef------------------ */
+
+/* mail : youssef.bouguerba1@gmail.com */
